@@ -3,9 +3,11 @@ package Calculator;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.math.BigInteger;
 
 class CalcTest {
 
+  BigInteger bigInteger = new BigInteger("3").multiply(200);
   static String[] inputArg = null;
   static String input, a, b, op;
   static int arg1, arg2, result;
